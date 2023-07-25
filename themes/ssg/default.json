@@ -1,5 +1,5 @@
 {
-  "01_ssg": {
+  "ssg": {
     "brand": {
       "value": "linear-gradient(270deg, #be3ffa 0%, #f43479 40.65%, #f43479 58.41%, #fc6c40 100%)",
       "type": "color",

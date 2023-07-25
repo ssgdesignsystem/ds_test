@@ -836,10 +836,10 @@
       "01_ssg.content.headline.1": "S:6fe3ebaafec0a2e28ec8fe8d136747230fc977ce,"
     },
     "selectedTokenSets": {
-      "01_ssg/default": "enabled",
-      "01_ssg/button": "enabled",
       "04_delivery": "enabled",
-      "01_ssg/content": "enabled"
+      "ssg/default": "enabled",
+      "ssg/button": "enabled",
+      "ssg/content": "enabled"
     },
     "group": "mall",
     "$figmaCollectionId": "VariableCollectionId:13165:58455",
@@ -1339,7 +1339,10 @@
     },
     "selectedTokenSets": {
       "02_emart/default": "enabled",
-      "04_delivery": "enabled"
+      "04_delivery": "enabled",
+      "ssg/default": "disabled",
+      "ssg/button": "disabled",
+      "ssg/content": "disabled"
     },
     "group": "mall",
     "$figmaCollectionId": "VariableCollectionId:13165:58455",
@@ -1433,10 +1436,11 @@
     "name": "shinsegaemall",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "01_ssg/default": "enabled",
-      "01_ssg/button": "enabled",
       "03_site": "enabled",
-      "04_delivery": "enabled"
+      "04_delivery": "enabled",
+      "ssg/default": "enabled",
+      "ssg/button": "enabled",
+      "ssg/content": "disabled"
     },
     "group": "mall",
     "$figmaCollectionId": "VariableCollectionId:13165:58455",
@@ -1706,10 +1710,11 @@
     "name": "department",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "01_ssg/default": "enabled",
-      "01_ssg/button": "enabled",
       "03_site": "enabled",
-      "04_delivery": "enabled"
+      "04_delivery": "enabled",
+      "ssg/default": "enabled",
+      "ssg/button": "enabled",
+      "ssg/content": "disabled"
     },
     "group": "mall",
     "$figmaCollectionId": "VariableCollectionId:13165:58455",
@@ -1979,9 +1984,10 @@
     "name": "universeclub",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "01_ssg/default": "enabled",
-      "01_ssg/button": "enabled",
-      "05_service": "enabled"
+      "05_service": "enabled",
+      "ssg/default": "enabled",
+      "ssg/button": "enabled",
+      "ssg/content": "disabled"
     },
     "group": "service",
     "$figmaCollectionId": "VariableCollectionId:13165:58758",
@@ -2228,9 +2234,10 @@
     "name": "present",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "01_ssg/default": "enabled",
-      "01_ssg/button": "enabled",
-      "05_service": "enabled"
+      "05_service": "enabled",
+      "ssg/default": "enabled",
+      "ssg/button": "enabled",
+      "ssg/content": "disabled"
     },
     "group": "service",
     "$figmaCollectionId": "VariableCollectionId:13165:58758",
