@@ -1,2 +1,2 @@
-# ssguikit-
+# ssguikit
 ssg design system
