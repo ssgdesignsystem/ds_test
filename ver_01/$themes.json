@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "70b23fe2f5eeb3ef981c28d7b6a1905160f50b5d",
+    "name": "ssg",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "payment": "enabled",
+      "promotion": "enabled",
+      "service": "enabled",
+      "delivery": "enabled",
+      "site": "enabled",
+      "ssg/button": "enabled",
+      "ssg/default": "enabled"
+    },
+    "group": "mall"
+  },
+  {
+    "id": "11d8da98630285ad0439af7260c12cd0d95df572",
+    "name": "emart",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "payment": "enabled",
+      "promotion": "enabled",
+      "service": "enabled",
+      "delivery": "enabled",
+      "site": "enabled",
+      "emart/button": "enabled",
+      "emart/default": "enabled"
+    },
+    "group": "mall"
+  }
+]
