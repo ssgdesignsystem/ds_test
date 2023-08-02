@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "id": "3f74bb6103af15fbd356a53aa85b56333ce198ab",
+    "name": "ui kit",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "payment": "enabled",
+      "promotion": "enabled",
+      "service": "enabled",
+      "delivery": "enabled",
+      "site": "enabled",
+      "emart/button": "enabled",
+      "emart/default": "enabled",
+      "ssg/button": "enabled",
+      "ssg/default": "enabled"
+    }
+  }
+]
