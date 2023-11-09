@@ -209,7 +209,11 @@
       }
     }
   },
-  "space(gridsystem)": {
+  "space (간격)": {
+    "0": {
+      "value": "0",
+      "type": "spacing"
+    },
     "1": {
       "value": "1px",
       "type": "spacing",
@@ -417,13 +421,37 @@
       "type": "typography"
     }
   },
-  "btn_size": {
+  "btn size": {
     "2xs": {
       "value": "20",
       "type": "sizing"
     },
     "xs": {
       "value": "24",
+      "type": "sizing"
+    },
+    "sm": {
+      "value": "28",
+      "type": "sizing"
+    },
+    "md": {
+      "value": "32",
+      "type": "sizing"
+    },
+    "lg": {
+      "value": "36",
+      "type": "sizing"
+    },
+    "xl": {
+      "value": "40",
+      "type": "sizing"
+    },
+    "2xl (CTA)": {
+      "value": "52",
+      "type": "sizing"
+    },
+    "3xl (게이트페이지 전용)": {
+      "value": "60",
       "type": "sizing"
     }
   },
@@ -433,17 +461,12 @@
         "medium": {
           "ssg_btn_solid_primary_01": {
             "value": {
-              "height": "{btn_size.2xs}",
+              "height": "{btn size.2xs}",
               "fill": "{btn.solid.primary_01.fill}",
-              "typography": "{gothic.11 medium (2xs)}"
-            },
-            "type": "composition"
-          },
-          "ssg_btn_solid_primary_02": {
-            "value": {
-              "height": "{btn_size.2xs}",
-              "fill": "{btn.solid.primary_02.fill}",
-              "typography": "{gothic.11 medium (2xs)}"
+              "typography": "{gothic.11 medium (2xs)}",
+              "paddingLeft": "{space (간격).12}",
+              "paddingRight": "{space (간격).12}",
+              "itemSpacing": "{space (간격).0}"
             },
             "type": "composition"
           }
@@ -982,6 +1005,32 @@
         "value": "#0064FF",
         "type": "color"
       }
+    }
+  },
+  "icon size": {
+    "2xs": {
+      "value": "12",
+      "type": "sizing"
+    },
+    "xs": {
+      "value": "16",
+      "type": "sizing"
+    },
+    "sm": {
+      "value": "20",
+      "type": "sizing"
+    },
+    "md": {
+      "value": "24",
+      "type": "sizing"
+    },
+    "lg": {
+      "value": "28",
+      "type": "sizing"
+    },
+    "xl": {
+      "value": "32",
+      "type": "sizing"
     }
   }
 }
