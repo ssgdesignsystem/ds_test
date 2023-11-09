@@ -469,6 +469,17 @@
               "itemSpacing": "{space (간격).0}"
             },
             "type": "composition"
+          },
+          "ssg_btn_solid_primary_02": {
+            "value": {
+              "height": "{btn size.2xs}",
+              "fill": "{btn.solid.primary_02.fill}",
+              "typography": "{gothic.11 medium (2xs)}",
+              "paddingLeft": "{space (간격).12}",
+              "paddingRight": "{space (간격).12}",
+              "itemSpacing": "{space (간격).0}"
+            },
+            "type": "composition"
           }
         }
       }
