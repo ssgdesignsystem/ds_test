@@ -835,13 +835,12 @@
       "01_ssg.content.headline.1": "S:6fe3ebaafec0a2e28ec8fe8d136747230fc977ce,"
     },
     "selectedTokenSets": {
-      "ssg/default": "enabled",
-      "ssg/button": "enabled",
       "delivery": "enabled",
       "service": "enabled",
       "promotion": "source",
       "payment": "source",
-      "site": "enabled"
+      "site": "enabled",
+      "ssg": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:1:937",
     "$figmaModeId": "1:3",
@@ -1297,11 +1296,10 @@
     },
     "selectedTokenSets": {
       "delivery": "enabled",
-      "emart/default": "enabled",
-      "emart/button": "enabled",
       "service": "enabled",
       "promotion": "source",
-      "payment": "source"
+      "payment": "source",
+      "ssg": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:4:137",
     "$figmaModeId": "4:2",
