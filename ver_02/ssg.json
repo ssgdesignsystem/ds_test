@@ -417,564 +417,566 @@
       "type": "typography"
     }
   },
-  "ssg_btn": {
-    "solid": {
-      "primary_01": {
-        "fill": {
-          "value": "{ssg.accent.primary}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_01\n\n"
+  "component": {
+    "btn": {
+      "solid": {
+        "primary_01": {
+          "fill": {
+            "value": "{ssg.accent.primary}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_01\n\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_01"
+          },
+          "icon": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_01"
+          }
         },
-        "text": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_01"
+        "primary_02": {
+          "fill": {
+            "value": "{ssg.accent.primary_light}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_02\n\n"
+          },
+          "text": {
+            "value": "{ssg.accent.primary_dark}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_02"
+          },
+          "icon": {
+            "value": "{ssg.accent.primary_dark}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_02"
+          }
         },
-        "icon": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_01"
+        "secondary_01": {
+          "fill": {
+            "value": "{ssg.neutral.gray900}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_01\n\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_01"
+          },
+          "icon": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_01"
+          }
+        },
+        "secondary_02": {
+          "fill": {
+            "value": "{ssg.accent.secondary}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_02\n\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_02"
+          },
+          "icon": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_02"
+          }
+        },
+        "secondary_03": {
+          "fill": {
+            "value": "{ssg.accent.secondary_light}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_03\n\n"
+          },
+          "text": {
+            "value": "{ssg.accent.secondary_dark}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_03"
+          },
+          "icon": {
+            "value": "{ssg.accent.secondary_dark}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_03"
+          }
+        },
+        "tertiary_gray_01": {
+          "fill": {
+            "value": "{ssg.neutral.gray800}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_01\n\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_01"
+          },
+          "icon": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_01"
+          }
+        },
+        "tertiary_gray_02": {
+          "fill": {
+            "value": "{ssg.neutral.gray200}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_02\n\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray900}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_02"
+          },
+          "icon": {
+            "value": "{ssg.neutral.black}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_02"
+          }
+        },
+        "tertiary_gray_03": {
+          "fill": {
+            "value": "{ssg.neutral.gray200}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_03\n\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_03"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_03"
+          }
+        },
+        "tertiary_gray_04": {
+          "fill": {
+            "value": "{ssg.neutral.gray150}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_04\n\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray900}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_04"
+          },
+          "icon": {
+            "value": "{ssg.neutral.black}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_04"
+          }
+        },
+        "tertiary_gray_05": {
+          "fill": {
+            "value": "{ssg.neutral.gray150}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_05\n\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_05"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_035"
+          }
+        },
+        "tertiary_white_01": {
+          "fill": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_white_01\n\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray900}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_white_01"
+          },
+          "icon": {
+            "value": "{ssg.neutral.black}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_white_01"
+          }
         }
       },
-      "primary_02": {
-        "fill": {
-          "value": "{ssg.accent.primary_light}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_02\n\n"
+      "outline": {
+        "primary_01": {
+          "outline": {
+            "value": "{ssg.accent.primary}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_01\n"
+          },
+          "text": {
+            "value": "{ssg.accent.primary}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_01"
+          },
+          "icon": {
+            "value": "{ssg.accent.primary}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_01"
+          }
         },
-        "text": {
-          "value": "{ssg.accent.primary_dark}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_02"
+        "primary_02": {
+          "outline": {
+            "value": "{ssg.neutral.gray300}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_02\n"
+          },
+          "text": {
+            "value": "{ssg.accent.primary}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_02"
+          },
+          "icon": {
+            "value": "{ssg.accent.primary}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_02"
+          }
         },
-        "icon": {
-          "value": "{ssg.accent.primary_dark}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_primary_02"
+        "secondary_01": {
+          "outline": {
+            "value": "{ssg.neutral.gray900}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_01\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray900}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_01"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray900}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_01"
+          }
+        },
+        "secondary_02": {
+          "outline": {
+            "value": "{ssg.neutral.gray350}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_02\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray900}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_02"
+          },
+          "icon": {
+            "value": "{ssg.neutral.black}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_02"
+          }
+        },
+        "secondary_03": {
+          "outline": {
+            "value": "{ssg.neutral.gray300}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_03\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray900}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_03"
+          },
+          "icon": {
+            "value": "{ssg.neutral.black}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_03"
+          }
+        },
+        "secondary_04": {
+          "outline": {
+            "value": "{ssg.accent.secondary}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_04\n"
+          },
+          "text": {
+            "value": "{ssg.accent.secondary}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_04"
+          },
+          "icon": {
+            "value": "{ssg.accent.secondary}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_04"
+          }
+        },
+        "tertiary_gray_01": {
+          "outline": {
+            "value": "{ssg.neutral.gray350}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_01\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_01"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_01"
+          }
+        },
+        "tertiary_gray_02": {
+          "outline": {
+            "value": "{ssg.neutral.gray350}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_02\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray500}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_02"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray500}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_02"
+          }
+        },
+        "tertiary_gray_03": {
+          "outline": {
+            "value": "{ssg.neutral.gray300}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_03\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_03"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_03"
+          }
+        },
+        "tertiary_gray_04": {
+          "outline": {
+            "value": "{ssg.neutral.gray300}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_04\n"
+          },
+          "text": {
+            "value": "{ssg.neutral.gray500}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_04"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray500}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_04"
+          }
         }
       },
-      "secondary_01": {
-        "fill": {
-          "value": "{ssg.neutral.gray900}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_01\n\n"
+      "text": {
+        "primary_01": {
+          "text": {
+            "value": "{ssg.accent.primary}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_text_primary_01"
+          },
+          "icon": {
+            "value": "{ssg.accent.primary}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_text_primary_01"
+          }
         },
-        "text": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_01"
+        "secondary_01": {
+          "text": {
+            "value": "{ssg.neutral.gray900}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_text_secondary_01"
+          },
+          "icon": {
+            "value": "{ssg.neutral.black}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_text_secondary_01"
+          }
         },
-        "icon": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_01"
+        "secondary_02": {
+          "text": {
+            "value": "{ssg.accent.secondary}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_text_secondary_02"
+          },
+          "icon": {
+            "value": "{ssg.accent.secondary}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_text_secondary_02"
+          }
+        },
+        "tertiary_gray_01": {
+          "text": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_text_tertiary_gray_01"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_text_tertiary_gray_01"
+          }
+        },
+        "tertiary_gray_02": {
+          "text": {
+            "value": "{ssg.neutral.gray500}",
+            "type": "color",
+            "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_text_tertiary_gray_02"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray500}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_text_tertiary_gray_02"
+          }
         }
       },
-      "secondary_02": {
-        "fill": {
-          "value": "{ssg.accent.secondary}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_02\n\n"
+      "solidicon": {
+        "opacity_01": {
+          "fill": {
+            "value": "{ssg.neutral.dim.black_alpha80}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_01\n\n"
+          },
+          "icon": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_01"
+          }
         },
-        "text": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_02"
+        "opacity_02": {
+          "fill": {
+            "value": "{ssg.neutral.dim.black_alpha45}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_02\n\n"
+          },
+          "icon": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_02"
+          }
         },
-        "icon": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_02"
+        "opacity_03": {
+          "fill": {
+            "value": "{ssg.neutral.dim.black_alpha20}",
+            "type": "color",
+            "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_03\n\n"
+          },
+          "icon": {
+            "value": "{ssg.neutral.white}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_03"
+          }
         }
       },
-      "secondary_03": {
-        "fill": {
-          "value": "{ssg.accent.secondary_light}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_03\n\n"
+      "outlineicon": {
+        "primary_01": {
+          "outline": {
+            "value": "{ssg.neutral.gray300}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_primary_01"
+          },
+          "icon": {
+            "value": "{ssg.accent.primary}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_primary_01"
+          }
         },
-        "text": {
-          "value": "{ssg.accent.secondary_dark}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_03"
+        "secondary_01": {
+          "outline": {
+            "value": "{ssg.neutral.gray300}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_secondary_01"
+          },
+          "icon": {
+            "value": "{ssg.neutral.black}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_secondary_01"
+          }
         },
-        "icon": {
-          "value": "{ssg.accent.secondary_dark}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_secondary_03"
+        "secondary_02": {
+          "outline": {
+            "value": "{ssg.neutral.gray300}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_secondary_02"
+          },
+          "icon": {
+            "value": "{ssg.accent.secondary}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_secondary_02"
+          }
+        },
+        "tertiary_gray_01": {
+          "outline": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_tertiary_gray_01"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_tertiary_gray_01"
+          }
+        },
+        "tertiary_gray_02": {
+          "outline": {
+            "value": "{ssg.neutral.gray500}",
+            "type": "color",
+            "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_tertiary_gray_02"
+          },
+          "icon": {
+            "value": "{ssg.neutral.gray500}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_tertiary_gray_02"
+          }
         }
       },
-      "tertiary_gray_01": {
-        "fill": {
-          "value": "{ssg.neutral.gray800}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_01\n\n"
+      "icon": {
+        "primary_01": {
+          "icon": {
+            "value": "{ssg.accent.primary}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_icon_primary_01"
+          }
         },
-        "text": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_01"
+        "secondary_01": {
+          "icon": {
+            "value": "{ssg.neutral.black}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_icon_secondary_01"
+          }
         },
-        "icon": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_01"
-        }
-      },
-      "tertiary_gray_02": {
-        "fill": {
-          "value": "{ssg.neutral.gray200}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_02\n\n"
+        "secondary_02": {
+          "icon": {
+            "value": "{ssg.accent.secondary}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_icon_secondary_02"
+          }
         },
-        "text": {
-          "value": "{ssg.neutral.gray900}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_02"
+        "tertiary_gray_01": {
+          "icon": {
+            "value": "{ssg.neutral.gray700}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_icon_tertiary_gray_01"
+          }
         },
-        "icon": {
-          "value": "{ssg.neutral.black}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_02"
-        }
-      },
-      "tertiary_gray_03": {
-        "fill": {
-          "value": "{ssg.neutral.gray200}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_03\n\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_03"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_03"
-        }
-      },
-      "tertiary_gray_04": {
-        "fill": {
-          "value": "{ssg.neutral.gray150}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_04\n\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray900}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_04"
-        },
-        "icon": {
-          "value": "{ssg.neutral.black}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_04"
-        }
-      },
-      "tertiary_gray_05": {
-        "fill": {
-          "value": "{ssg.neutral.gray150}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_05\n\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_05"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_gray_035"
-        }
-      },
-      "tertiary_white_01": {
-        "fill": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_white_01\n\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray900}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_white_01"
-        },
-        "icon": {
-          "value": "{ssg.neutral.black}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solid_tertiary_white_01"
-        }
-      }
-    },
-    "outline": {
-      "primary_01": {
-        "outline": {
-          "value": "{ssg.accent.primary}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_01\n"
-        },
-        "text": {
-          "value": "{ssg.accent.primary}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_01"
-        },
-        "icon": {
-          "value": "{ssg.accent.primary}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_01"
-        }
-      },
-      "primary_02": {
-        "outline": {
-          "value": "{ssg.neutral.gray300}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_02\n"
-        },
-        "text": {
-          "value": "{ssg.accent.primary}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_02"
-        },
-        "icon": {
-          "value": "{ssg.accent.primary}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_primary_02"
-        }
-      },
-      "secondary_01": {
-        "outline": {
-          "value": "{ssg.neutral.gray900}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_01\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray900}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_01"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray900}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_01"
-        }
-      },
-      "secondary_02": {
-        "outline": {
-          "value": "{ssg.neutral.gray350}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_02\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray900}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_02"
-        },
-        "icon": {
-          "value": "{ssg.neutral.black}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_02"
-        }
-      },
-      "secondary_03": {
-        "outline": {
-          "value": "{ssg.neutral.gray300}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_03\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray900}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_03"
-        },
-        "icon": {
-          "value": "{ssg.neutral.black}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_03"
-        }
-      },
-      "secondary_04": {
-        "outline": {
-          "value": "{ssg.accent.secondary}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_04\n"
-        },
-        "text": {
-          "value": "{ssg.accent.secondary}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_04"
-        },
-        "icon": {
-          "value": "{ssg.accent.secondary}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_secondary_04"
-        }
-      },
-      "tertiary_gray_01": {
-        "outline": {
-          "value": "{ssg.neutral.gray350}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_01\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_01"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_01"
-        }
-      },
-      "tertiary_gray_02": {
-        "outline": {
-          "value": "{ssg.neutral.gray350}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_02\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray500}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_02"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray500}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_02"
-        }
-      },
-      "tertiary_gray_03": {
-        "outline": {
-          "value": "{ssg.neutral.gray300}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_03\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_03"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_03"
-        }
-      },
-      "tertiary_gray_04": {
-        "outline": {
-          "value": "{ssg.neutral.gray300}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_04\n"
-        },
-        "text": {
-          "value": "{ssg.neutral.gray500}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_04"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray500}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outline_tertiary_gray_04"
-        }
-      }
-    },
-    "text": {
-      "primary_01": {
-        "text": {
-          "value": "{ssg.accent.primary}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_text_primary_01"
-        },
-        "icon": {
-          "value": "{ssg.accent.primary}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_text_primary_01"
-        }
-      },
-      "secondary_01": {
-        "text": {
-          "value": "{ssg.neutral.gray900}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_text_secondary_01"
-        },
-        "icon": {
-          "value": "{ssg.neutral.black}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_text_secondary_01"
-        }
-      },
-      "secondary_02": {
-        "text": {
-          "value": "{ssg.accent.secondary}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_text_secondary_02"
-        },
-        "icon": {
-          "value": "{ssg.accent.secondary}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_text_secondary_02"
-        }
-      },
-      "tertiary_gray_01": {
-        "text": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_text_tertiary_gray_01"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_text_tertiary_gray_01"
-        }
-      },
-      "tertiary_gray_02": {
-        "text": {
-          "value": "{ssg.neutral.gray500}",
-          "type": "color",
-          "description": "- 버튼 텍스트컬러\n- 버튼 컬러세트명 : ssg_btn_text_tertiary_gray_02"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray500}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_text_tertiary_gray_02"
-        }
-      }
-    },
-    "solidicon": {
-      "opacity_01": {
-        "fill": {
-          "value": "{ssg.neutral.dim.black_alpha80}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_01\n\n"
-        },
-        "icon": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_01"
-        }
-      },
-      "opacity_02": {
-        "fill": {
-          "value": "{ssg.neutral.dim.black_alpha45}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_02\n\n"
-        },
-        "icon": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_02"
-        }
-      },
-      "opacity_03": {
-        "fill": {
-          "value": "{ssg.neutral.dim.black_alpha20}",
-          "type": "color",
-          "description": "- 버튼 면컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_03\n\n"
-        },
-        "icon": {
-          "value": "{ssg.neutral.white}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_solidicon_opacity_03"
-        }
-      }
-    },
-    "outlineicon": {
-      "primary_01": {
-        "outline": {
-          "value": "{ssg.neutral.gray300}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_primary_01"
-        },
-        "icon": {
-          "value": "{ssg.accent.primary}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_primary_01"
-        }
-      },
-      "secondary_01": {
-        "outline": {
-          "value": "{ssg.neutral.gray300}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_secondary_01"
-        },
-        "icon": {
-          "value": "{ssg.neutral.black}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_secondary_01"
-        }
-      },
-      "secondary_02": {
-        "outline": {
-          "value": "{ssg.neutral.gray300}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_secondary_02"
-        },
-        "icon": {
-          "value": "{ssg.accent.secondary}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_secondary_02"
-        }
-      },
-      "tertiary_gray_01": {
-        "outline": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_tertiary_gray_01"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_tertiary_gray_01"
-        }
-      },
-      "tertiary_gray_02": {
-        "outline": {
-          "value": "{ssg.neutral.gray500}",
-          "type": "color",
-          "description": "- 버튼 아웃라인컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_tertiary_gray_02"
-        },
-        "icon": {
-          "value": "{ssg.neutral.gray500}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_outlineicon_tertiary_gray_02"
-        }
-      }
-    },
-    "icon": {
-      "primary_01": {
-        "icon": {
-          "value": "{ssg.accent.primary}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_icon_primary_01"
-        }
-      },
-      "secondary_01": {
-        "icon": {
-          "value": "{ssg.neutral.black}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_icon_secondary_01"
-        }
-      },
-      "secondary_02": {
-        "icon": {
-          "value": "{ssg.accent.secondary}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_icon_secondary_02"
-        }
-      },
-      "tertiary_gray_01": {
-        "icon": {
-          "value": "{ssg.neutral.gray700}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_icon_tertiary_gray_01"
-        }
-      },
-      "tertiary_gray_02": {
-        "icon": {
-          "value": "{ssg.neutral.gray500}",
-          "type": "color",
-          "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_icon_tertiary_gray_02"
+        "tertiary_gray_02": {
+          "icon": {
+            "value": "{ssg.neutral.gray500}",
+            "type": "color",
+            "description": "- 버튼 아이콘컬러\n- 버튼 컬러세트명 : ssg_btn_icon_tertiary_gray_02"
+          }
         }
       }
     }
@@ -996,7 +998,7 @@
           "ssg_btn_solid_primary_01": {
             "value": {
               "height": "{btn_size.2xs}",
-              "fill": "{ssg_btn.solid.primary_01.fill}",
+              "fill": "{component.btn.solid.primary_01.fill}",
               "typography": "{gothic.11 medium (2xs)}"
             },
             "type": "composition"
@@ -1004,12 +1006,545 @@
           "ssg_btn_solid_primary_02": {
             "value": {
               "height": "{btn_size.2xs}",
-              "fill": "{ssg_btn.solid.primary_02.fill}",
+              "fill": "{component.btn.solid.primary_02.fill}",
               "typography": "{gothic.11 medium (2xs)}"
             },
             "type": "composition"
           }
         }
+      }
+    }
+  },
+  "site": {
+    "emart_primary": {
+      "value": "#ffd040",
+      "type": "color",
+      "description": "- 이마트몰 로고에만 사용가능\n- 사용불가"
+    },
+    "shinsegaemall_primary": {
+      "value": "#f12e24",
+      "type": "color",
+      "description": "- 신세계몰"
+    },
+    "shinsegaemall_secondary": {
+      "value": "#000000",
+      "type": "color",
+      "description": "- 신세계몰"
+    },
+    "department_primary": {
+      "value": "#a59357",
+      "type": "color",
+      "description": "- 신세계백화점"
+    },
+    "department_secondary1": {
+      "value": "#222222",
+      "type": "color",
+      "description": "- 신세계백화점"
+    },
+    "department_secondary2": {
+      "value": "#f2f0eb",
+      "type": "color",
+      "description": "- 신세계백화점"
+    },
+    "triip_primary": {
+      "value": "#328ca8",
+      "type": "color",
+      "description": "- 여행"
+    },
+    "triip_secondary1": {
+      "value": "#2e3342",
+      "type": "color",
+      "description": "- 여행"
+    },
+    "triip_secondary2": {
+      "value": "#ff5b59",
+      "type": "color",
+      "description": "- 여행"
+    },
+    "chicor_primary": {
+      "value": "linear-gradient(180deg, #e9450c 0%, #ffd700 50%, #df0082 100%)",
+      "type": "color",
+      "description": "- APP : 그라데이션 컬러 정의가 불가로 이미지 적용\n- 공식브랜드관 > 그룹사관\n(유형구분 : https://projectwiki.ssgadm.com/pages/viewpage.action?pageId=96972680)"
+    },
+    "chicor_secondary": {
+      "value": "#000000",
+      "type": "color",
+      "description": "공식브랜드관 > 그룹사관\n(유형구분 : https://projectwiki.ssgadm.com/pages/viewpage.action?pageId=96972680)"
+    },
+    "starbucks_primary": {
+      "value": "#006241",
+      "type": "color",
+      "description": "공식브랜드관 > 그룹사관\n(유형구분 : https://projectwiki.ssgadm.com/pages/viewpage.action?pageId=96972680)"
+    },
+    "starbucks_secondary": {
+      "value": "#1E3932",
+      "type": "color"
+    },
+    "sivillage_primary": {
+      "value": "#222222",
+      "type": "color",
+      "description": "공식브랜드관 > 그룹사관\n(유형구분 : https://projectwiki.ssgadm.com/pages/viewpage.action?pageId=96972680)"
+    },
+    "starfield_primary": {
+      "value": "#b12536",
+      "type": "color",
+      "description": "- 스타필드"
+    },
+    "premiumoutlet_primary": {
+      "value": "#d9117c",
+      "type": "color",
+      "description": "공식브랜드관 > 그룹사관\n(유형구분 : https://projectwiki.ssgadm.com/pages/viewpage.action?pageId=96972680)"
+    },
+    "wconcept_primary": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "ssglanders_primary": {
+      "value": "#ce0e2d",
+      "type": "color"
+    },
+    "brand(개발등록x)": {
+      "casamia_primary": {
+        "value": "#ffcf02",
+        "type": "color",
+        "description": "공식브랜드관 > 그룹사관\n(유형구분 : https://projectwiki.ssgadm.com/pages/viewpage.action?pageId=96972680)"
+      },
+      "tv_primary": {
+        "value": "linear-gradient(90deg, #ff329b 0%, #fc5653 59.9%, #ff9100 100%)",
+        "type": "color",
+        "description": "공식브랜드관 > 그룹사관\n(유형구분 : https://projectwiki.ssgadm.com/pages/viewpage.action?pageId=96972680)"
+      }
+    }
+  },
+  "delivery": {
+    "emart_light": {
+      "value": "#FFE98B",
+      "type": "color",
+      "description": "- 이마트 쓱배송"
+    },
+    "emart": {
+      "value": "#FFD040",
+      "type": "color",
+      "description": "- 이마트 쓱배송"
+    },
+    "emart_dark": {
+      "value": "#FF6200",
+      "type": "color",
+      "description": "- 이마트 쓱배송\n- text 사용"
+    },
+    "earlymorning_light": {
+      "value": "#D5DEE8",
+      "type": "color",
+      "description": "- 새벽배송"
+    },
+    "earlymorning": {
+      "value": "#A3B7CD",
+      "type": "color",
+      "description": "- 새벽배송"
+    },
+    "earlymorning_dark": {
+      "value": "#44637E",
+      "type": "color",
+      "description": "- 새벽배송\n- text 사용"
+    },
+    "traders_light": {
+      "value": "#D6EF9C",
+      "type": "color",
+      "description": "- 트레이더스 쓱배송"
+    },
+    "traders": {
+      "value": "#a6dd27",
+      "type": "color",
+      "description": "- 트레이더스 쓱배송"
+    },
+    "traders_dark": {
+      "value": "#50A800",
+      "type": "color",
+      "description": "- 트레이더스 쓱배송\n- text 사용"
+    },
+    "oneday": {
+      "value": "#DCAA78",
+      "type": "color",
+      "description": "- 쓱원데이"
+    },
+    "oneday_dark": {
+      "value": "#A57C58",
+      "type": "color",
+      "description": "- 쓱원데이\n- text 사용"
+    },
+    "post_light": {
+      "value": "#ECEAE4",
+      "type": "color",
+      "description": "- 택배배송"
+    },
+    "post": {
+      "value": "#d6d2c4",
+      "type": "color",
+      "description": "- 택배배송"
+    },
+    "depart_today": {
+      "value": "#8807f3",
+      "type": "color",
+      "description": "- 오늘출발\n"
+    },
+    "depart_today_light": {
+      "value": "#f5edff",
+      "type": "color",
+      "description": "- 오늘출발\n"
+    },
+    "mobilecoupon": {
+      "value": "#9ee5d2",
+      "type": "color",
+      "description": "- 모바일쿠폰\n- 쓱콘\n- 기프티콘"
+    },
+    "pickup": {
+      "value": "#e1d2c8",
+      "type": "color",
+      "description": "매장픽업"
+    }
+  },
+  "service": {
+    "univers_primary1_horizontal": {
+      "value": "linear-gradient(90deg, #002041 40%, #497cff 100%)",
+      "type": "color",
+      "description": "- 신세계 유니버스 클럽\n- APP : 그라데이션 컬러 정의가 불가로 이미지 적용"
+    },
+    "univers_primary2": {
+      "value": "#002041",
+      "type": "color",
+      "description": "- 신세계 유니버스 클럽"
+    },
+    "univers_secondary1": {
+      "value": "#497cff",
+      "type": "color",
+      "description": "- 신세계 유니버스 클럽"
+    },
+    "present_primary": {
+      "value": "#AB8F59",
+      "type": "color",
+      "description": "선물하기"
+    },
+    "present_secondary1": {
+      "value": "#D6D2C4",
+      "type": "color",
+      "description": "선물하기"
+    },
+    "present_secondary2": {
+      "value": "#5D533F",
+      "type": "color",
+      "description": "선물하기"
+    },
+    "luxury_primary": {
+      "value": "#0B503D",
+      "type": "color"
+    },
+    "coupon-primary": {
+      "value": "linear-gradient(204deg, #BE3FFA 18.51%, #F43479 68.83%, #FC6C40 91.32%)",
+      "type": "color"
+    },
+    "coupon-secondary": {
+      "value": "linear-gradient(15deg, #002041 44.59%, #497CFF 103.46%)",
+      "type": "color",
+      "description": "유니버스 클럽 쿠폰 전용"
+    },
+    "foodmarket_primary1": {
+      "value": "#f04c38",
+      "type": "color",
+      "description": "프리미엄 식품관"
+    },
+    "foodmarket_primary2": {
+      "value": "#9E2A2B",
+      "type": "color",
+      "description": "프리미엄 식품관"
+    },
+    "foodmarket_primary3": {
+      "value": "#512F2E",
+      "type": "color",
+      "description": "프리미엄 식품관"
+    },
+    "foodmarket_secondary1": {
+      "value": "#D6D2C4",
+      "type": "color",
+      "description": "프리미엄 식품관"
+    },
+    "foodmarket_secondary2": {
+      "value": "#C0A392",
+      "type": "color",
+      "description": "프리미엄 식품관"
+    },
+    "obanjang_primary": {
+      "value": "#ffd040",
+      "type": "color",
+      "description": "오반장"
+    },
+    "happylounge_primary": {
+      "value": "#ff4c3c",
+      "type": "color",
+      "description": "해피라운지"
+    },
+    "mondaymoon_primary": {
+      "value": "#3e584b",
+      "type": "color",
+      "description": "먼데이문"
+    },
+    "mondaymoon_secondary": {
+      "value": "#b69d81",
+      "type": "color",
+      "description": "먼데이문"
+    },
+    "ssgpay_primary": {
+      "value": "#E24F39",
+      "type": "color",
+      "description": "쓱페이"
+    },
+    "ssgpay_secondary": {
+      "value": "#323743",
+      "type": "color",
+      "description": "쓱페이"
+    },
+    "cleaning_primary": {
+      "value": "#0ec8df",
+      "type": "color",
+      "description": "- 청소연구소"
+    },
+    "cleaning_secondary": {
+      "value": "#00bffe",
+      "type": "color",
+      "description": "- 청소연구소\n- 클레임영역 사용"
+    },
+    "urr_primary": {
+      "value": "#6252ff",
+      "type": "color",
+      "description": "우르르"
+    },
+    "urr_secondary": {
+      "value": "#19c9ff",
+      "type": "color",
+      "description": "우르르"
+    },
+    "ssgtalk_primary": {
+      "value": "#6677c0",
+      "type": "color",
+      "description": "쓱톡"
+    },
+    "nana_primary": {
+      "value": "#ff9600",
+      "type": "color",
+      "description": "Little SSG 유아동"
+    }
+  },
+  "promotion": {
+    "ssgday_primary": {
+      "value": "#E60096",
+      "type": "color",
+      "description": "- 쓱데이"
+    },
+    "ssgday_secondary1": {
+      "value": "#FF7373",
+      "type": "color",
+      "description": "- 쓱데이"
+    },
+    "ssgday_secondary2": {
+      "value": "#FF4137",
+      "type": "color",
+      "description": "- 쓱데이"
+    }
+  },
+  "payment(개발등록x)": {
+    "신용카드": {
+      "SSGCOM카드": {
+        "value": "#363635",
+        "type": "color"
+      },
+      "현대카드": {
+        "value": "#777777",
+        "type": "color"
+      },
+      "신한카드": {
+        "value": "#0046ff",
+        "type": "color"
+      },
+      "삼성카드": {
+        "value": "#006BFF",
+        "type": "color"
+      },
+      "KB국민카드": {
+        "value": "#645B4C",
+        "type": "color"
+      },
+      "카카오뱅크카드": {
+        "value": "#3D537D",
+        "type": "color"
+      },
+      "비씨카드": {
+        "value": "#E83E45",
+        "type": "color"
+      },
+      "씨티카드": {
+        "value": "#233066",
+        "type": "color"
+      },
+      "하나카드": {
+        "value": "#00907F",
+        "type": "color"
+      },
+      "SSGPAY카드": {
+        "value": "#323743",
+        "type": "color"
+      },
+      "롯데카드": {
+        "value": "#e21c24",
+        "type": "color"
+      },
+      "NH농협카드": {
+        "value": "#3270B7",
+        "type": "color"
+      },
+      "우리카드": {
+        "value": "#0963AC",
+        "type": "color"
+      },
+      "IBK기업은행카드": {
+        "value": "#004c9d",
+        "type": "color"
+      },
+      "SC제일은행카드": {
+        "value": "#3277a9",
+        "type": "color"
+      },
+      "수협카드": {
+        "value": "#0068B7",
+        "type": "color"
+      },
+      "광주은행카드": {
+        "value": "#002D6A",
+        "type": "color"
+      },
+      "전북은행카드": {
+        "value": "#002D6A",
+        "type": "color"
+      },
+      "제주은행카드": {
+        "value": "#0B1966",
+        "type": "color"
+      },
+      "이마트e카드(현대카드)": {
+        "value": "#484c56",
+        "type": "color"
+      },
+      "SSGCOM 삼성카드": {
+        "value": "#7E8083",
+        "type": "color"
+      },
+      "SSGCOM카드 에디션2": {
+        "value": "#FC336D",
+        "type": "color"
+      },
+      "토스뱅크": {
+        "value": "#0064FF",
+        "type": "color"
+      }
+    },
+    "은행": {
+      "한국은행": {
+        "value": "#005596",
+        "type": "color"
+      },
+      "KDB산업은행": {
+        "value": "#003C7F",
+        "type": "color"
+      },
+      "IBK기업은행": {
+        "value": "#004c9d",
+        "type": "color"
+      },
+      "KB국민은행": {
+        "value": "#645B4C",
+        "type": "color"
+      },
+      "NH농협은행": {
+        "value": "#0066B3",
+        "type": "color"
+      },
+      "SH수협은행": {
+        "value": "#0068B7",
+        "type": "color"
+      },
+      "우리은행": {
+        "value": "#0067ac",
+        "type": "color"
+      },
+      "SC제일은행": {
+        "value": "#3277A9",
+        "type": "color"
+      },
+      "신한은행": {
+        "value": "#0B1966",
+        "type": "color"
+      },
+      "DGB대구은행": {
+        "value": "#007dc4",
+        "type": "color"
+      },
+      "씨티은행": {
+        "value": "#233066",
+        "type": "color"
+      },
+      "BNK부산은행": {
+        "value": "#E60000",
+        "type": "color"
+      },
+      "광주은행": {
+        "value": "#002d6a",
+        "type": "color"
+      },
+      "제주은행": {
+        "value": "#0B1966",
+        "type": "color"
+      },
+      "전북은행": {
+        "value": "#002d6a",
+        "type": "color"
+      },
+      "BNK경남은행": {
+        "value": "#E60000",
+        "type": "color"
+      },
+      "새마을금고": {
+        "value": "#0B386A",
+        "type": "color"
+      },
+      "신협": {
+        "value": "#0061AE",
+        "type": "color"
+      },
+      "상호저축은행": {
+        "value": "#007360",
+        "type": "color"
+      },
+      "카카오뱅크": {
+        "value": "#1e1e1e",
+        "type": "color"
+      },
+      "케이뱅크": {
+        "value": "#0F005F",
+        "type": "color"
+      },
+      "ABN암로": {
+        "value": "#007872",
+        "type": "color"
+      },
+      "우체국": {
+        "value": "#ed3024",
+        "type": "color"
+      },
+      "KEB하나": {
+        "value": "#00948F",
+        "type": "color"
+      },
+      "토스뱅크": {
+        "value": "#0064FF",
+        "type": "color"
       }
     }
   }

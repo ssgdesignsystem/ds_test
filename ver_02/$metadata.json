@@ -1,10 +1,5 @@
 {
   "tokenSetOrder": [
-    "ssg",
-    "site",
-    "delivery",
-    "service",
-    "promotion",
-    "payment"
+    "ssg"
   ]
 }
