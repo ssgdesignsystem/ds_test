@@ -1,0 +1,132 @@
+{
+  "service": {
+    "univers_primary1_horizontal": {
+      "value": "linear-gradient(90deg, #002041 40%, #497cff 100%)",
+      "type": "color",
+      "description": "- 신세계 유니버스 클럽\n- APP : 그라데이션 컬러 정의가 불가로 이미지 적용"
+    },
+    "univers_primary2": {
+      "value": "#002041",
+      "type": "color",
+      "description": "- 신세계 유니버스 클럽"
+    },
+    "univers_secondary1": {
+      "value": "#497cff",
+      "type": "color",
+      "description": "- 신세계 유니버스 클럽"
+    },
+    "present_primary": {
+      "value": "#AB8F59",
+      "type": "color",
+      "description": "선물하기"
+    },
+    "present_secondary1": {
+      "value": "#D6D2C4",
+      "type": "color",
+      "description": "선물하기"
+    },
+    "present_secondary2": {
+      "value": "#5D533F",
+      "type": "color",
+      "description": "선물하기"
+    },
+    "luxury_primary": {
+      "value": "#0B503D",
+      "type": "color"
+    },
+    "coupon-primary": {
+      "value": "linear-gradient(204deg, #BE3FFA 18.51%, #F43479 68.83%, #FC6C40 91.32%)",
+      "type": "color"
+    },
+    "coupon-secondary": {
+      "value": "linear-gradient(15deg, #002041 44.59%, #497CFF 103.46%)",
+      "type": "color",
+      "description": "유니버스 클럽 쿠폰 전용"
+    },
+    "foodmarket_primary1": {
+      "value": "#f04c38",
+      "type": "color",
+      "description": "프리미엄 식품관"
+    },
+    "foodmarket_primary2": {
+      "value": "#9E2A2B",
+      "type": "color",
+      "description": "프리미엄 식품관"
+    },
+    "foodmarket_primary3": {
+      "value": "#512F2E",
+      "type": "color",
+      "description": "프리미엄 식품관"
+    },
+    "foodmarket_secondary1": {
+      "value": "#D6D2C4",
+      "type": "color",
+      "description": "프리미엄 식품관"
+    },
+    "foodmarket_secondary2": {
+      "value": "#C0A392",
+      "type": "color",
+      "description": "프리미엄 식품관"
+    },
+    "obanjang_primary": {
+      "value": "#ffd040",
+      "type": "color",
+      "description": "오반장"
+    },
+    "happylounge_primary": {
+      "value": "#ff4c3c",
+      "type": "color",
+      "description": "해피라운지"
+    },
+    "mondaymoon_primary": {
+      "value": "#3e584b",
+      "type": "color",
+      "description": "먼데이문"
+    },
+    "mondaymoon_secondary": {
+      "value": "#b69d81",
+      "type": "color",
+      "description": "먼데이문"
+    },
+    "ssgpay_primary": {
+      "value": "#E24F39",
+      "type": "color",
+      "description": "쓱페이"
+    },
+    "ssgpay_secondary": {
+      "value": "#323743",
+      "type": "color",
+      "description": "쓱페이"
+    },
+    "cleaning_primary": {
+      "value": "#0ec8df",
+      "type": "color",
+      "description": "- 청소연구소"
+    },
+    "cleaning_secondary": {
+      "value": "#00bffe",
+      "type": "color",
+      "description": "- 청소연구소\n- 클레임영역 사용"
+    },
+    "urr_primary": {
+      "value": "#6252ff",
+      "type": "color",
+      "description": "우르르"
+    },
+    "urr_secondary": {
+      "value": "#19c9ff",
+      "type": "color",
+      "description": "우르르"
+    },
+    "ssgtalk_primary": {
+      "value": "#6677c0",
+      "type": "color",
+      "description": "쓱톡"
+    },
+    "nana_primary": {
+      "value": "#ff9600",
+      "type": "color",
+      "description": "Little SSG 유아동"
+    }
+  }
+}
